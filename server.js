@@ -15,7 +15,8 @@ app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "http://localhost:5174"
+      "http://localhost:5174",
+      "https://frontend-expense-tracker-tw0u.onrender.com"
     ],
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
