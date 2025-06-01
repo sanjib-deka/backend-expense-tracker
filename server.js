@@ -13,11 +13,7 @@ const app = express();
 // Middleware to handle CORS
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",
-      "http://localhost:5174",
-      "https://frontend-expense-tracker-tw0u.onrender.com"
-    ],
+    origin: "*",
     methods: ["GET", "POST", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type", "Authorization"],
   })
