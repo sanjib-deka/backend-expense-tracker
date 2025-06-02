@@ -31,5 +31,11 @@ app.use("/api/v1/dashboard", dashboardRoutes);
 // Serve uploads folder
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
+//  Root route to test if backend is working
+app.get("/", (req, res) => {
+  res.send("🚀 Backend is working!");
+});
+
+
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
