@@ -1,4 +1,4 @@
-# 🖥️ Dhanbad Backend – Expense Tracking API
+# 🖥️ DhanPath Backend – Expense Tracking API
 
 This is the **backend server** for the Dhanbad Expense Tracking Website. It provides RESTful APIs for user authentication, expense management, and data export functionalities.
 
@@ -27,5 +27,5 @@ Built using **Node.js**, **Express.js**, and **MongoDB**, it supports secure aut
 
 ---
 
-## 🗂️ Folder Structure
+
 
